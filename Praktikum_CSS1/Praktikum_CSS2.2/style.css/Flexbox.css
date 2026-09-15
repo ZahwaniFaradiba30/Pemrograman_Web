@@ -1,0 +1,53 @@
+.container {
+display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+justify-content: center;
+}
+
+.container {
+display: flex;
+align-item: center;
+}
+
+.container {
+    display: flex;
+    flex-wrrap: wrap;
+    align-content: center;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.item {
+flex-grow: 1;
+}
+
+.item {
+flex-shrink: 2;
+}
+
+.item {
+flex-basis: 200px;
+}
+
+.item {
+align-self: center;
+}
+
+.item-1 {
+order: 2;
+}
+.item-2 {
+order: 1;
+}
+

@@ -1,0 +1,15 @@
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid blue;
+
+    .teks-biru {
+        color: blue;
+    }
+    .tebal {
+        font-weight: bold;
+    }
+}

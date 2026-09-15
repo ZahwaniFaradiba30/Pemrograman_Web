@@ -1,0 +1,138 @@
+<p>Ini adalah paragraf berwarna biru dengan ukuran 18px.</p>
+
+<table>
+<tr>
+<th>Nama Siswa</th>
+<th>Usia</th>
+</tr>
+<tr>
+<td>Astrid Pierce</td>
+<td>17</td>
+</tr>
+</table>
+
+<div class="box">Kotak 1</div>
+<div class="box">Kotak 2</div>
+<div class="box">Kotak 3</div>
+
+<p class="teks-biru tebal">Ini teks biru dan tebal.</p>
+
+<h1 id="judul">Ini judul berwarna biru.</h1>
+<div id="kotak-utama">Ini adalah kotak utama.</div>
+
+<link rel="stylesheet" href="../Latihan_PemWeb/assets/css/SelectorUniversal.css">
+<link rel="stylesheet" href="../Latihan_PemWeb/assets/css/SelectorTag.css">
+<link rel="stylesheet" href="../Latihan_PemWeb/assets/css/SelectorID.css">
+<link rel="stylesheet" href="../Latihan_PemWeb/assets/css/SelectorClass.css">
+
+<div>
+<p>
+Paragraf ini memiliki latar belakang biru karena berada di dalam elemen div.
+</p>
+
+<div>
+    <p>
+Paragraf ini juga akan memiliki latar belakang biru karena merupakan turunan dari elemen div luar.
+    </p>
+
+    <section>
+<p>
+Paragraf ini tetap memiliki latar belakang biru meskipun berada di dalam section yang berada di dalam div.
+</p>
+    </section>
+</div>
+</div>
+
+<section>
+<p>
+Paragraf ini tidak akan terpengaruh karena tidak berada di dalam elemen div.
+</p>
+</section>
+
+<div>
+<p>
+Paragraf ini akan memiliki latar belakang hijau karena merupakan child langsung dari elemen div.</p>
+<section>
+<p>Paragraf ini tidak akan terpengaruh karena berada di dalam section yang berada di dalam elemen div.</p>
+</section>
+</div>
+
+<h1>Judul</h1>
+<p>Ini paragraf setelah h1.</p>
+<p>Ini paragraf lain.</p>
+
+<h1>Judul</h1>
+<p>Paragaf pertama setelah h1.</p>
+<p>Paragraf kedua setelah h1.</p>
+
+<link rel="stylesheet" href="../Latihan_PemWeb/assets/css/SeletorGabungan.css">
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../Latihan_PemWeb/assets/css/PseudoClass.css">
+</head>
+<body>
+<h2>Efek Hover, Focus, dan Active</h2>
+<a href="#" class="tombol">Klik Saya</a>
+<br><br>
+<input type="text" placeholder="Ketik sesuatu...">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contoh First-Child, Last-Child, dan Nth-Child</title>
+<link rel="stylesheet" href="../Latihan_PemWeb/assets/css/PseudoClass.css">
+</head>
+
+<body>
+<h2>Daftar Buah</h2>
+<ul>
+<li>Apel</li>
+<li>Pisang</li>
+<li>Mangga</li>
+<li>Jeruk</li>
+<li>Semangka</li>
+<li>Durian</li>
+</ul>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contoh :checked, :disabled, :empty</title>
+<link rel="stylesheet" href="../Latihan_PemWeb/assets/css/PseudoClass.css">
+</head>
+
+<body>
+<h2>Contoh Pseudo-Class :checked, :disabled, dan :empty</h2>
+<input type="checkbox" id="cek1">
+<label for="cek1">Centang Saya!</label>
+
+<br><br>
+<input type="radio" name="piihan" id="radio1">
+<label for="radio1">Opsi 1</label>
+
+<input type="radio" name="pilihan" id="radio2">
+<label for="radio2">Opsi 2</label>
+
+<br><br>
+<input type="text" placeholder="Saya aktif">
+<input type="text" placeholder="Saya dinonaktifkan" disabled>
+
+<br><br>
+<div></div>
+</body>
+</html>

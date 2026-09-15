@@ -1,0 +1,26 @@
+.tombol {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FCB454;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.tombol:hover {
+    background-color: #FF9B17;
+    transform: scale(1.1);
+}
+
+input:focus {
+    border: 2px solid #F16767;
+    outline: none;
+    background-color: #FFF085;
+}
+
+.tombol:active {
+    background-color: #F16767;
+    transform: scale(0.95);
+}

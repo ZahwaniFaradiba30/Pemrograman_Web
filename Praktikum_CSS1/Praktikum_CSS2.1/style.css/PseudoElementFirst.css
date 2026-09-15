@@ -1,0 +1,22 @@
+.artikel {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.artikel::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    color: #e63946;
+    float: left;
+    margin-right: 10px;
+}
+
+.artikel::first-line {
+    color: #1d3557;
+    font-weight: bold;
+}
